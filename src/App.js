@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
+import Theme from './Components/Theme';
+import { GlobalStyle } from './Components/GlobalStyle';
+import Content from './Components/Content';
+import Ad from './Components/Ad';
+import Details from './Components/Details';
+
+import bgMobile from './images/bg-intro-mobile.png'
+
+
+const Container = styled.div`
+  background: ${props => props.theme.color.red} url(${bgMobile}) no-repeat;
+  // background-color: ${props => props.theme.color.red};
+  // background-position: center;
+  // background-size: cover;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Theme>
+      <GlobalStyle />
+      <Container>
+        <Content />
+        <Ad />
+        <Details />
+      </Container>
+    </Theme>
+  )
 }
 
 export default App;
