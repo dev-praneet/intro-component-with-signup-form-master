@@ -10,9 +10,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#to-know-further)
-  - [Useful resources](#useful-resources)
+  - [To Know Further](#to-know-further)
 - [Author](#author)
 
 ## Overview
@@ -32,13 +30,13 @@ Users should be able to:
 ![](./screenshot.jpg)
 
 
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
+
+## My Process
 
 ### Built with
 
@@ -50,19 +48,10 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
 
-### What I learned
-
-
 
 ### To Know Further
 
 - When I was using a pseudo after element with absolute positioning to display the error messages, it was being displayed only for the last box and not for the other boxes but it was working fine with static positioning. I don't understand why this happens? Got it. It was happening because the messages were being hidden inside the next input box.
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 
 ## Author

@@ -10,18 +10,12 @@ grayishBlue: 'hsl(246, 25%, 77%)',
 },
 font: {
 size: {
-extraSmall: '14px',
-small: '16px',
-medium: '18px',
-large: '20px',
-extraLarge: '24px',
 },
 family: "'Poppins', sans-serif",
 },
 breakpoint: {
 mobile: '850px',
 },
-borderWidth: '2px',
 };
 
 const Theme = ({ children }) => {
