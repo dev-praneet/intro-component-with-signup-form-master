@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/intro-component-with-signup-form-master/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/intro-component-with-signup-form-master/static/js/main.a24c7bb8.chunk.js",
+    "main.js.map": "/intro-component-with-signup-form-master/static/js/main.a24c7bb8.chunk.js.map",
+    "runtime-main.js": "/intro-component-with-signup-form-master/static/js/runtime-main.76f51f0c.js",
+    "runtime-main.js.map": "/intro-component-with-signup-form-master/static/js/runtime-main.76f51f0c.js.map",
+    "static/js/2.b7701e94.chunk.js": "/intro-component-with-signup-form-master/static/js/2.b7701e94.chunk.js",
+    "static/js/2.b7701e94.chunk.js.map": "/intro-component-with-signup-form-master/static/js/2.b7701e94.chunk.js.map",
+    "static/js/3.137b607f.chunk.js": "/intro-component-with-signup-form-master/static/js/3.137b607f.chunk.js",
+    "static/js/3.137b607f.chunk.js.map": "/intro-component-with-signup-form-master/static/js/3.137b607f.chunk.js.map",
+    "index.html": "/intro-component-with-signup-form-master/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/intro-component-with-signup-form-master/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.b7701e94.chunk.js.LICENSE.txt": "/intro-component-with-signup-form-master/static/js/2.b7701e94.chunk.js.LICENSE.txt",
+    "static/media/bg-intro-desktop.059183ee.png": "/intro-component-with-signup-form-master/static/media/bg-intro-desktop.059183ee.png",
+    "static/media/bg-intro-mobile.02ce3982.png": "/intro-component-with-signup-form-master/static/media/bg-intro-mobile.02ce3982.png",
+    "static/media/icon-error.9931bbb5.svg": "/intro-component-with-signup-form-master/static/media/icon-error.9931bbb5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76f51f0c.js",
+    "static/js/2.b7701e94.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.a24c7bb8.chunk.js"
+  ]
+}
