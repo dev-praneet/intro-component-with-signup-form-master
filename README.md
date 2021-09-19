@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot_desktop.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/geeky-amat/intro-component-with-signup-form-master)
+- [Live Site URL](https://geeky-amat.github.io/intro-component-with-signup-form-master/)
 
 
 ## My Process
