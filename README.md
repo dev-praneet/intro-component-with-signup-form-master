@@ -52,7 +52,7 @@ Users should be able to:
 ### To Know Further
 
 - When I was using a pseudo after element with absolute positioning to display the error messages, it was being displayed only for the last box and not for the other boxes but it was working fine with static positioning. I don't understand why this happens? Got it. It was happening because the messages were being hidden inside the next input box.
-
+- When I added the property of `display: flex` to the wrapper div of the input box which is a part of the 'Content' component, the size of the wrapper div seemed to decrease a bit. Upon further investigation I found that it was not due to any change in padding or margin or border but it was because of the change in the display property of the inner 'input' box somehow from `display: inline-block` to `display: block`. So two point to take from here is that 1) a flex container changes the display property of 'input' from inline-block to block and 2) that somehow in case of inline-block 'input' component there is some extra space on top and bottom which is not accounted for in either of padding, border or margin. 
 
 ## Author
 
