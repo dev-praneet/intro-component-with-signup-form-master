@@ -11,7 +11,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+  - [Continued development](#to-know-further)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -54,8 +54,9 @@ Users should be able to:
 
 
 
-### Continued development
+### To Know Further
 
+- When I was using a pseudo after element with absolute positioning to display the error messages, it was being displayed only for the last box and not for the other boxes but it was working fine with static positioning. I don't understand why this happens? Got it. It was happening because the messages were being hidden inside the next input box.
 
 
 ### Useful resources

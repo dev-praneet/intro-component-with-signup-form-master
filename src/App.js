@@ -9,10 +9,11 @@ import bgMobile from './images/bg-intro-mobile.png'
 
 
 const Container = styled.div`
+  padding: 4em 0em 3em 0em;
   background: ${props => props.theme.color.red} url(${bgMobile}) no-repeat;
   // background-color: ${props => props.theme.color.red};
-  // background-position: center;
-  // background-size: cover;
+  background-position: center;
+  background-size: cover;
 `;
 
 function App() {

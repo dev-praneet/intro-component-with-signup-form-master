@@ -6,7 +6,7 @@ const Wrapper = styled.div`
     margin: 0 auto 1em auto;
     padding: 1em 0em;
     border-radius: 0.5em;
-    box-shadow: 0 5px hsl(0, 100%, 70%);
+    box-shadow: 0 7px hsl(0, 100%, 71%);
 `;
 
 const Text = styled.p`

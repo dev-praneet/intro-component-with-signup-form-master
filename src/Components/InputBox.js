@@ -1,13 +1,29 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 
 const Wrapper = styled.div`
+    position: relative;
     max-width: 90%;
-    margin: 1em auto;
+    margin: 1.4em auto;
     padding: 0.4em 0;
     border: 2px solid hsl(246, 25%, 92%);
     border-radius: 0.3em;
     background-color: white;
+
+    ${props =>
+        props.error &&
+        css`
+        border: 2px solid red;
+
+        &::after {
+            content: ${props => props.errorMsg};
+            font-size: 0.6em;
+            position: absolute;
+            right: 0em;
+            top: 4.2em;
+            color: ${props => props.theme.color.red};
+        }
+        `};
 `;
 
 const Input = styled.input.attrs(props => ({}))`
@@ -29,12 +45,13 @@ const Input = styled.input.attrs(props => ({}))`
     &:focus::placeholder {
         opacity: 0.9;
     }
+
 `;
 
 export default (props) => {
     return (
-        <Wrapper>
-            <Input placeholder={props.placeholder}/>
+        <Wrapper error={props.error} errorMsg={props.errorMsg}>
+            <Input placeholder={props.placeholder} onChange={props.onChange} onClick={props.onClick}/>
         </Wrapper>
     )
 }

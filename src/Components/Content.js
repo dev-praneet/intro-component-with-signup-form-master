@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
     max-width: 90%;
     margin: 0 auto;
-    padding: 3em 0em 2em 0;
+    padding: 0em 0em 2em 0;
 `;
 
 const Head = styled.h1`
